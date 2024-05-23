@@ -6,8 +6,8 @@ substitutions:
   rest_opentindb_queryid: "400000000"
 
   # I2C-Pins fürs Display
-  display_i2c_sda: GPIO21
-  display_i2c_scl: GPIO22
+  #display_i2c_sda: GPIO21
+  #display_i2c_scl: GPIO22
 
   # I2C-Adresse des OLED Displays
   ssd1306_i2c_address: "0x3C"
@@ -17,7 +17,7 @@ substitutions:
   uart_rx_pin: GPIO3
 
   # Pin des Buzzer/Beeper
-  beeper_pin: GPIO16
+  #beeper_pin: GPIO16
 
 esp32:
   board: mhetesp32minikit
